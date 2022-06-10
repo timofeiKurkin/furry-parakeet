@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #FDFAEA url("../static/Rectangle.png");
+}
+.main .row {
+  width: 1414px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.main .row .photo .photo__picture {
+  width: 370px;
+  height: 370px;
+  background: #727272;
+  border-radius: 50%;
+  margin-right: 170px;
+}
+.main .row .text .about-me {
+  margin-bottom: 65px;
+}
+.main .row .text .about-me__name {
+  letter-spacing: 10px;
+  font-size: 70px;
+  color: #464646;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+.main .row .text .about-me__summary {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 37.7px;
+  width: 875px;
+  color: #292929;
+}
+.main .row .text .social__title {
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+}
+.main .row .text .social__links {
+  display: flex;
+}
+.main .row .text .social__link {
+  margin-right: 70px;
+}
+.main .row .text .social__link-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+.main .row .text .social__link-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #000000;
+  text-decoration: none;
+}
+.main .row .text .social__link-text:hover {
+  color: #464646;
+}
+
+/*# sourceMappingURL=styles.css.map */
